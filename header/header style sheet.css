@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    box-shadow: 5px 5px 10px rgb(100, 163, 168);
+    justify-content: space-between;
+    background-image: url(OIP.jpg);
+    background-size: cover;
+    height: 50px;
+}
+header>.logo-text{
+    width: 130px;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header>.logo-text>h1{
+
+    color: blue;
+    padding: 5px;
+}
+header>.logo-text>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+header>.menu_bar{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+header>.menu_bar>li{
+    color: rgb(166, 158, 158);
+}
+header>.menu_bar>li>a{
+    color: rgb(123, 151, 201);
+    text-decoration: none;
+    background-color: black;
+    padding: 3px;
+    border-radius: 4px;
+}
+header>.menu_bar>li>a:hover{
+    color: blue;
+    background-color: aqua;
+}
+section{
+    height: calc(100vh - 50px);
+    background-image: url(OIPl.jpg);
+    background-position: left top;
+    background-size:cover;
+} 
+.section-bar{
+    background-color: rgba(0, 0, 0, 0.318);
+
+}
+section>div{
+    unicode-bidi: isolate;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+section .div1{
+    text-align: center;
+    color: rgb(127, 187, 255);
+    font-size: 40px;
+    font-weight: bold;
+    width: 90%;
+}
+section .div2{
+    text-align: justify;
+    width: 500px;
+    height: 80%;
+    color: rgb(17, 9, 242);
+}
+section img{
+    width: 500px;
+    height: calc(100vh - 56px);
+    border-radius: 60%;
+}
+section .div2>h2{
+    width: fit-content;
+    margin: 50px 0 0 20px;
+}
+section .div2>h2>a{
+    text-decoration: none;
+    color: aqua; 
+    background-color: black;
+    padding: 5px;
+}
+section .div2>h2>a:hover{
+    background-color: blue;
+    color: red;
+}

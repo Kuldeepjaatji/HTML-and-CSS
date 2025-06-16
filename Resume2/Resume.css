@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left {
+    background: #fafafa;
+    flex: 1;
+    padding: 40px;
+    border-right: 1px solid #eee;
+  }
+  
+  .right {
+    flex: 2;
+    padding: 40px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #2c3e50;
+  }
+  
+  .title {
+    font-size: 1.2em;
+    color: #4a90e2;
+    margin-bottom: 15px;
+  }
+  
+  .summary {
+    margin-bottom: 30px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .section h2 {
+    font-size: 1.2em;
+    color: #333;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skills li {
+    background: #4a90e2;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9em;
+  }
+  
+  .item {
+    margin-bottom: 20px;
+  }
+  
+  .item h3 {
+    font-size: 1em;
+    font-weight: 600;
+  }
+  
+  .item span {
+    display: block;
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 8px;
+  }
+  

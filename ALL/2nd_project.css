@@ -1,0 +1,47 @@
+*{
+              margin: 0%;
+            padding: 0%;
+        }
+        table{
+            width: 100%; 
+            text-align: center;
+            border-collapse: collapse;
+            border: 2px solid red ;
+        }
+        th{
+            width: 130px;
+        }
+        .a{
+            background-color: blue;
+            color: aliceblue;
+        }
+        td{
+            border: 2px solid black ;
+        }
+        .A{
+            background-color: chocolate;
+        }
+        .tbody_1st{
+            background-color: rgb(225, 199, 84);
+        }
+        .fit{
+             padding-left:200px;
+             padding-right:200px;
+        }
+        .fitt{
+            padding-left:200px;
+            padding-right:200px;
+        }
+        .white{
+            padding-bottom: 100px;
+        }
+        .thead_2nd{
+            background-color: rgb(225, 199, 84);
+        }
+        .tbody_2nd{
+            background-color: aliceblue;
+        }
+        .thead_3rd{
+            background-color: blue;
+            color: aliceblue;
+        }

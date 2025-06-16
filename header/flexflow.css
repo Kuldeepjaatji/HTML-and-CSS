@@ -1,0 +1,16 @@
+.contaner1{
+    border:1px solid red;
+    height: 400px;
+    width: 200vh;
+    display: flex;
+    justify-content: space-around ;
+    flex-flow: wrap;
+    align-content: ;    
+}
+.contaner1>.box{
+    border:1px solid black;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    background-color: red;
+}

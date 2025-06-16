@@ -1,0 +1,14 @@
+.spiner{
+    background-color: rgb(243, 14, 14);
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    border: 25px solid rgb(239, 236, 243);            
+    border-top: 20px solid rgb(67, 17, 247);
+    animation: ani 2.5s linear infinite;
+}
+@keyframes ani{
+    to{
+        transform: rotate(360deg);
+    }
+}

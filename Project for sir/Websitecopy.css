@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+    position:sticky;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+}
+header>h1{
+    font-size: 20px;
+}
+header>ul{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: 14px;
+}
+body>.img{
+    height: 200vh;
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    background-image: url(welcome-banner.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img>.background{
+    height: 1000px;
+    width: 100%;
+    background-color:rgba(23, 30, 132, 0.399);
+}
+body>.img>.background>.box-1{
+    width: 750px;
+    height: 280px;
+    position: absolute;
+    top: 330px;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+body>.img>.background>.box-1>h1{
+    font-size: 40px;
+}
+body>.img>.background>.box-1>p{
+    font-size: 20px;
+    text-align: center;
+}
+body>.img>.background>.box-1>button{
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: none;
+    width: 220px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+body>.form{
+    height: 300px;
+    width: 90%;
+    position: absolute;
+    top: 175vh;
+    left: 50px;
+    background-color: white;
+    color: black;
+    font-size: 23px;
+    border-radius:5px;
+    box-shadow:  3px 3px 14px rgba(0, 0, 0, 0.228),-3px -3px 14px rgba(0, 0, 0, 0.228);
+}
+body>.form>.box{
+    width: 80%;
+    height: 100%;
+}
+body>.form .box-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+body>.form .box-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+}
+body>.form h1{
+    font-size: 27px;
+}
+body>.form select{
+    padding: 3px 30px;
+    font-size: 30px;
+    border: none;
+    color: rgba(42, 41, 41, 0.584);
+    background-color: rgba(0, 0, 0, 0.103);
+}
+body>button{
+    padding: 20px 50px;
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px black,-1px -1px 4px black;
+    z-index: 1;
+    position: absolute;
+    top: 205vh;
+    right: 100px;
+}
+body>.Boxs{
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+body>.Boxs>.Box-1{
+    border: 1px solid black;
+    height: 90vh;
+    width: 25%;
+    color: black;
+    transition: .8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body>.Boxs>.Box-1:hover{
+    background-color: rgb(4, 4, 239);
+    color: white;
+    border: 2px solid white;
+}
+body>.Boxs>.Box-1>div{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+body>.Boxs>.Box-1 .bi-car-front{
+    font-size: 70px;
+}
+body>.Boxs>.Box-1 h1{
+    font-size: 25px;
+    text-align: center;
+}
+body>.Boxs>.Box-1 p{
+    font-size: 18px;
+    text-align: center;
+}
+body>.Boxs>.Box-1 span{
+    border: 2px solid rgb(0, 255, 251);
+    width: 60px;
+    height: 0;
+}
+body>.Boxs>.Box-1 span:hover{
+    border: 2px solid white;
+}
+body>.container{
+    margin-top: 150px;
+    height: 150vh;
+    background-color: rgba(0, 0, 0, 0.059);
+}
+body>.container>.container-1{
+    border: 1px solid black;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    position: relative;
+}
+body>.container>.container-1>div{
+    height: 100px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+body>.container>.container-1>div>h1{
+    font-size: 35px;
+}
+body>.container>.container-1>div>span{
+    border: 1.5px solid blue;
+    width: 70px;
+    height: 0;
+}
+.carousel-inner{
+    width: 1000px;
+    border: 2px solid red;
+}
+.carousel-item{
+    display: flex;
+    align-items: center;
+    border: 2px solid blue;
+}
+.content-3{
+    border: 2px solid red;
+    height: 100%;
+    width: 400px;
+}
+.img-2{
+    height:fit-content;
+    width:50%;
+    border: 2px solid green;
+}

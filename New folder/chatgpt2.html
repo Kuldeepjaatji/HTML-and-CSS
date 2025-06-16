@@ -1,0 +1,51 @@
+<div class="custom-dropdown">
+    <div class="selected-option">Select an Option</div>
+    <div class="dropdown-list">
+      <div class="option">Option 1</div>
+      <div class="option">Option 2</div>
+      <div class="option">Option 3</div>
+    </div>
+  </div>
+  
+  <style>
+    .custom-dropdown {
+      position: relative;
+      display: inline-block;
+      width: 200px;
+    }
+  
+    .selected-option {
+      background-color: white;
+      border: 1px solid #ccc;
+      padding: 10px;
+      cursor: pointer;
+    }
+  
+    .dropdown-list {
+      display: none;
+      position: absolute;
+      width: 100%;
+      background-color: white;
+      border: 1px solid #ccc;
+      z-index: 1;
+    }
+  
+    .custom-dropdown:hover .dropdown-list {
+      display: block;
+    }
+  
+    .option {
+      padding: 10px;
+      cursor: pointer;
+    }
+  
+    .option:hover {
+      background-color: #ddd;
+    }
+  
+    /* Option 1 specific background */
+    .option:first-child {
+      background-color: #f0f8ff;
+    }
+  </style>
+  

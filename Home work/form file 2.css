@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("Capture.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1100 500;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+body>.Big_container{
+    background-color: rgba(255, 255, 255, 0.153);
+    border-radius: 6px;
+    box-shadow: 2px 2px 9px white,-2px -2px 9px white;
+    height: 85%;
+    width: 280px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body>.Big_container>.container{
+    height: 92%;
+    width: 84%;
+}
+body>.Big_container>.container>.Login_bar{
+    height:25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+body>.Big_container>.container>.Input{
+    height: 40%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+body>.Big_container>.container>.Input>.Input_1{
+    height: 41%;
+    flex-flow: row;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+body>.Big_container>.container>.Input>.Input_1>input{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.087);
+    border: none;
+    border-radius: 3px;
+}
+body>.Big_container>.container>.Input>.Input_1>input::placeholder{
+    color: white;
+    opacity: 0.65;
+}
+body>.Big_container>.container>.link{
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+body>.Big_container>.container>.link>.login-button{
+    height: 79%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+body>.Big_container>.container>.link>.login-button>button{
+    height: 40%;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+}
+body>.Big_container>.container>.link>.login-button>button:hover{
+    background-color: rgba(230, 228, 228, 0.805);
+}
+body>.Big_container>.container>.link>.two-link{
+    height: 21%;
+    display: flex;
+    justify-content: space-between;
+}
+body>.Big_container>.container>.link>.two-link>a{
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    height: 100%;
+    width: 45%;
+    color: white;
+    font-size: 13px;
+    background-color: rgba(255, 255, 255, 0.319);
+}
+body>.Big_container>.container>.link>.two-link>a:hover{
+    background-color: rgba(255, 255, 255, 0.382);
+    color: rgb(0, 238, 255);
+}

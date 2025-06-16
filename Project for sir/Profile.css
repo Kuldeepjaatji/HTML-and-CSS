@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+body>.box{
+    width: 25%;
+    height: 70vh;
+    border-radius: 20px;
+}
+body>.box>.box-1{
+    background-color: blue;
+    height: 25vh;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+body>.box>.box-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+body>.box>.box-2>.container{
+    height: 45vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+    position: relative;
+}
+body>.box>.box-2>.container>div{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    align-items: center;
+    height: calc(45vh - 50px);
+}
+body>.box>.box-2>.container>div>h3{
+    color: red;
+    font-size: 25px;
+}
+body>.box>.box-2>.container>div>h4{
+    color: rgb(83, 249, 6);
+    font-size: 20px;
+}
+body>.box>.box-2>.container>div>p{
+    text-align: justify;
+    font-size: 17px;
+}
+body>.box>.box-2>.container>div>button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(6, 249, 168);
+}
+body>.box>.box-2>.container>img{
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+}

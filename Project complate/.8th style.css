@@ -1,0 +1,28 @@
+
+th{
+    background-color: aqua;font-size: 40px;
+}
+td{
+    background-color: burlywood;font-size: 20px;
+}
+.RR{
+    background-color:aqua;font-size: 65px;
+}
+.R{
+    background-color: red;font-size: 50px;
+}
+.c{
+    background-color:rgb(12, 167, 33);
+}
+.yas{
+    color:blue;
+}
+.r{
+    color: brown;
+}
+body{
+    background-color:rgb(173, 189, 103); width: 100% ;
+}
+table{
+    width: 100%; text-align: center;
+}

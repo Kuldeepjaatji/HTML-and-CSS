@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url("sunset-mountain-forest-cartoon-background.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body>.container{
+    height: 400px;
+    width: 300px;
+    background-color: azure;
+}
+body>.container>.login{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body>.container>.login>h1{
+    color: rgba(0, 0, 255, 0.771);
+    font-size: 30px;
+}
+body>.container>.Uname_Pass{
+    padding:0px 24px;
+}
+body>.container>.Uname_Pass>input{
+    padding: 7px 2px;
+    width: 250px;
+    border: 1px solid blue;
+}
+body>.container>.Uname_Pass>input[type="text"]{
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 255, 0.771);
+    outline: none;
+}
+body>.container>.link{
+    margin-top:8px;
+    width: 300px;
+    padding: 0px 24px;
+    display: flex;
+    justify-content: end;
+}
+body>.container>.link>a{
+    font-size: 15px;
+}
+body>.container>.button{
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body>.container>.button>button{
+    padding: 5px 115px;
+    background-color: white;
+    border: 1px solid blue;
+}
+body>.container1{
+    height: 400px;
+    width: 500px;
+    background-image: url("sunset-mountain-forest-cartoon-background.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+body>.container1>.canter{
+    width: 60%;
+    color: white;
+}
+body>.container1>.canter>h1{
+    font-size: 53.5px;
+    text-align: center;
+}
+body>.container1>.canter>p{
+    text-align: center;
+}

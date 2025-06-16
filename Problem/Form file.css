@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 255, 0.266);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 4px;
+}
+body>.container{
+    display: flex;
+}
+body>.container>.big{
+    padding: 50px;
+    background-color: rgba(0, 208, 255, 0.277);
+    width: 66%;
+    height: 96vh;
+    color: white;
+}
+body>.container>.big>.p{
+    font-size: 15px;
+}
+body>.container>.big>h1{
+    font-size: 114px;
+}
+body>.container>.big>.face{
+   width: 60px;
+   height: 20px;
+   border-radius: 50px;
+}
+body>.container>.big>.face>i{
+    padding-left: 20px;
+}
+Form{
+    background-color: white;
+    padding: 20px;
+    width: 33%;
+    height: 96vh;
+}
+Form>h1{
+    font-size: 65px;
+    padding-top:50px ;
+}
+Form>p{
+    font-size: 15px;
+}
+input{
+    width: 100%;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.496);
+}
+Form>.flex{
+    display: flex;
+}
+Form>.flex>.gafe{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dark{
+    color: rgba(0, 0, 0, 0.42);
+}
+button{
+    background-color:rgb(157, 236, 183);
+    padding: 7px 30px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0.5px 0.5px 7px rgb(132, 195, 231);
+}
+.right{
+    display: flex;
+    justify-content: end;
+}

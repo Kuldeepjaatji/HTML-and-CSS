@@ -1,0 +1,286 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    width: 100%;
+    height: 40px;
+}
+header>.main-div{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+header>.main-div>.div1{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 40px;
+}
+header>.main-div>.div1 img{
+    width: 45px;
+    height: 40px;
+}
+header>.main-div>.div1>.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    align-items: center;
+    height: 40px;
+}
+header>.main-div>.div1>.flex>.ul1{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 520px;
+    height: 100%;
+}
+header>.main-div>.div1>.flex>.ul1>li>a{
+    text-decoration: none; 
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    height: 100%;
+    width: 130px;
+}
+header>.main-div>.div1>.flex>.ul1 a:hover{
+    background-color: #04AA6D;
+    color: rgb(243, 246, 246);
+}
+.flex>.ul1:checked ~ .bi-caret-down-fill{
+    display: block;
+}
+header>.main-div>.div1>.flex>.Converter>.ul3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px;
+    width: 120px;
+    border-radius: 30px;
+}
+.Converter{
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input[type="text"]{
+    outline: none;
+    width: 80px;
+    border: none;
+}
+.bi-circle-half:hover{
+    font-size: 25px;
+}
+header>.main-div>.div1>.flex>.ul2{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    list-style-type: none;
+    height: 40px;
+    align-items: center;
+}
+header>.main-div>.div1>.flex>.ul2>li>a{
+    display: flex;
+    width: 120px;
+    height: 40px;
+    justify-content:center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header>.main-div>.div1>.flex>.ul2 a:hover{
+    background-color: #04AA6D;
+    color: rgb(246, 247, 247);
+}
+header>.main-div>.logo_2>a>img{
+    width: 30px;
+    height: 38px;
+}
+nav{
+    height: 27px;
+    background-color: rgba(0, 0, 0, 0.585);
+}
+nav>ul{
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    text-align: center;
+    height: 27px;
+}
+nav>ul>li{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+nav>ul>li>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: aliceblue;
+    height: 100%;
+    width: 155px;
+}
+nav>ul>li>a:hover{
+    background-color: #070707;
+    color:white;
+}
+section.mein{
+    height: calc(100vh - 67px);
+    display: flex;
+} 
+section.mein>aside{
+    width: 20%;
+    overflow-y: scroll;
+    background-color: rgb(222, 224, 224);
+}
+section.mein>aside>h1{
+    margin: 10px;
+    font-size: 20px;
+}
+section.mein>aside>ul>li.baclground-color-green{
+    background-color: rgba(0, 128, 0, 0.613);
+}
+section.mein>aside li{
+    text-align: justify;
+    list-style-type: none;
+}
+section.mein>section.child{
+    width: 80%;
+    padding: 20px 20px 20px 40px;
+    overflow-y: scroll;
+}
+section.mein>section.child>h1{
+    font-size: 40px;
+    padding: 30px 0 10px 21px;
+}
+section.mein>section.child>div.btn{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section.mein>section.child>div.btn>button{
+    padding: 12px 0px;
+    background-color: rgba(0, 128, 0, 0.613);
+    color: aliceblue;
+    border: none;
+    border-radius: 6px;
+}
+section.mein>section.child>div.btn>button>a{
+    color: rgba(255, 255, 255, 0.856);
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+}
+section.mein>section.child>div.btn>button>a:hover{
+    background-color: rgb(0, 128, 0);
+}
+section.mein>section.child>div.btn2{
+    padding: 20px;
+    background-color: #04aa6d2b;
+    margin-top: 10px;
+}
+section.mein>section.child>div.btn2>ul>li{
+    list-style-type: none;
+    padding: 15px 0px;
+}
+section.mein>section.child>div.btn2>button{
+    padding: 12px 0px;
+    background-color: rgba(0, 128, 0, 0.613);
+    color: aliceblue;
+    border: none;
+    border-radius: 6px;
+}
+section.mein>section.child>div.btn2>button>a{
+    color: rgba(255, 255, 255, 0.856);
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+}
+section.mein>section.child>div.btn2>button>a:hover{
+    background-color: rgb(0, 128, 0);
+}
+section.mein>section.child>div.text{
+    margin: 10px;
+    padding-top: 35px;
+}
+section.mein>section.child>div.text>h3{
+    margin: 20px;
+    font-size: 25px;
+}
+section.mein>section.child>div.text>h4{
+    margin: 20px;
+    font-size: 13px;
+}
+section.mein>section.child>div.btn3{
+    background-color: rgb(222, 224, 224);
+    padding: 20px;
+    border-radius: 10px;
+}
+section.mein>section.child>div.btn3>h1{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+section.mein>section.child>div.btn3>div.mein-div{
+    background-color: white;
+    border-left: 4px solid  rgba(0, 128, 0, 0.613);
+}
+section.mein>section.child>div.btn3>div.mein-div p{
+    color: brown;
+    font-size: 15px;
+}
+section.mein>section.child>div.btn3>div.mein-div h2{
+    font-size: 13px;
+}
+section.mein>section.child>div.btn3>div.mein-div .color-red{
+    color: red;
+}
+section.mein>section.child>div.btn3>div.mein-div>div.div-1{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+section.mein>section.child>div.btn3>div.mein-div>div.div-3{
+    display: flex;
+    justify-content: space-around;
+    width: 160px;
+    padding-left: 11px;
+}
+section.mein>section.child>div.btn3>div.mein-div>div.div-5{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    padding-left: 11px;
+}
+section.mein>section.child>div.btn3>div.mein-div>div.div-6{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    padding-left: 11px;
+}
+section.mein>section.child>div.btn3>button{
+    padding: 12px 0px;
+    margin-top: 20px;
+    background-color: rgba(0, 128, 0, 0.613);
+    color: aliceblue;
+    border: none;
+    border-radius: 6px;
+}
+section.mein>section.child>div.btn3>button>a{
+    color: rgba(255, 255, 255, 0.856);
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+}
+section.mein>section.child>div.btn3>button>a:hover{
+    background-color: rgb(0, 128, 0);
+}

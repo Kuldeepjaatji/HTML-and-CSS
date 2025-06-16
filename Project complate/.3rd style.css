@@ -1,0 +1,24 @@
+th{
+   background-color: rgb(153, 71, 109);margin: 11px;
+}
+.R{
+   background-color: aqua; font-size: 65px;color: brown;
+}
+.RR{
+   background-color: aqua;font-size: 45px;color: brown;
+}
+.r{
+   background-color: rgb(182, 149, 59);font-size: 250px;color: rgb(135, 210, 245);
+}
+.rr{
+   background-color: rgb(52, 79, 151);font-size: 45px;color: rgb(208, 219, 143);
+}
+.rrr{
+   background-color: rgb(165, 111, 167);font-size: 45px;color: rgb(70, 177, 70);
+}
+.RRR{
+   background-color: rgb(210, 233, 146);margin:10px;
+}
+body{
+   background-color: blueviolet;
+}
